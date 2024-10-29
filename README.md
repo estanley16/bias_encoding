@@ -8,7 +8,7 @@
 <img src="figs/methods_fig.png?raw=true" width="600">
 </p>
 
-Code for layer-wise analysis of bias encoding in a CNN using SimBA data!
+Code for layer-wise analysis of bias encoding in a CNN using SimBA data! Used in our paper: ["Where, Why, and How is Bias Learned in Medical Image Analysis Models? A Study of Bias Encoding within Convolutional Networks using Synthetic Data"]()
 
 * `layerwise_feature_extraction.ipynb`: extract image activations from an intermediate layer of a keras CNN
 * `layerwise_encoding_analysis.ipynb`: analyze degree of linear separation (i.e., "encoding") of bias/disease information from the extracted activations
