@@ -13,8 +13,9 @@ Code for layer-wise analysis of bias encoding in a CNN using SimBA data! Used in
 * `layerwise_feature_extraction.ipynb`: extract image activations from an intermediate layer of a keras CNN
 * `layerwise_encoding_analysis.ipynb`: analyze degree of linear separation (i.e., "encoding") of bias/disease information from the extracted activations
 
-See [SimBA repo](https://github.com/estanley16/SimBA) for details on how to generate synthetic brain MRI with simulated biases and train counterfactual model pipelines. Will be updated soon with details on how to add multiple biases (e.g. intensity + morphology). :-) 
+See the [SimBA repo](https://github.com/estanley16/SimBA) for details on how to generate synthetic brain MRI with simulated biases and train counterfactual model pipelines.
 
+The data used in this paper can be found [here](https://mega.nz/folder/AxAj2Aab#jUJeRAB4TGvaMT5VCdGtOQ).
 
 ## Abstract
 Background:
@@ -28,7 +29,6 @@ Although biases were encoded throughout the model, a stronger encoding didn’t 
 
 Interpretation:
 We believe that these results constitute an important first step towards a deeper understanding of algorithmic bias in deep learning models trained on medical imaging data. This study also showcases the benefits of utilizing controlled, synthetic bias scenarios for objectively studying the mechanisms of shortcut learning. 
-
 
 ## Citation
 ```
