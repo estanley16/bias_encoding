@@ -8,7 +8,7 @@
 <img src="figs/methods_fig.png?raw=true" width="600">
 </p>
 
-Code for layer-wise analysis of bias encoding in a CNN using SimBA data! Used in our paper: ["Where, Why, and How is Bias Learned in Medical Image Analysis Models? A Study of Bias Encoding within Convolutional Networks using Synthetic Data"]()
+Code for layer-wise analysis of bias encoding in a CNN using SimBA data! Used in our [paper published in eBioMedicine.](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(24)00537-1/fulltext)
 
 * `layerwise_feature_extraction.ipynb`: extract image activations from an intermediate layer of a keras CNN
 * `layerwise_encoding_analysis.ipynb`: analyze degree of linear separation (i.e., "encoding") of bias/disease information from the extracted activations
@@ -32,14 +32,16 @@ We believe that these results constitute an important first step towards a deepe
 
 ## Citation
 ```
-@article{,
-	title={},
-	DOI={},
-	journal={},
-	author={Stanley, Emma A M and Souza, Raissa and Wilms, Matthias and Forkert, Nils D},
-	year={},
-	pages={} }
+@article{stanley_ebiom_2025,
+	title = {Where, why, and how is bias learned in medical image analysis models? A study of bias encoding within convolutional networks using synthetic data},
+	volume = {111},
+	doi = {10.1016/j.ebiom.2024.105501},
+	journal = {eBioMedicine},
+	author = {Stanley, Emma A. M. and Souza, Raissa and Wilms, Matthias and Forkert, Nils D.},
+	month = jan,
+	year = {2025},
+	pages = {105501},
 ```
 ```
-Stanley, E.A.M., Souza, R., Wilms, M., Forkert, N.D. ....
+E. A. M. Stanley, R. Souza, M. Wilms, and N. D. Forkert, “Where, why, and how is bias learned in medical image analysis models? A study of bias encoding within convolutional networks using synthetic data,” eBioMedicine, vol. 111, p. 105501, Jan. 2025, doi: 10.1016/j.ebiom.2024.105501.
 ```
