@@ -15,6 +15,7 @@ Code for layer-wise analysis of bias encoding in a CNN using SimBA data! Used in
 
 See the [SimBA repo](https://github.com/estanley16/SimBA) for details on how to generate synthetic brain MRI with simulated biases and train counterfactual model pipelines.
 
+Datasets used in this paper are available for download [**here**](https://doi.org/10.5683/SP3/A9SOBZ).
 
 ## Abstract
 Background:
